@@ -54,6 +54,8 @@ This is probably not what you want, hit `crt-c` to stop it.
 
 ```
 Usage of ./gitmoo-goog:
+  -album string
+        Unique persistent id assigned when album is created.
   -folder string
         backup folder
   -force
