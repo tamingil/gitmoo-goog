@@ -14,6 +14,7 @@ Download:
 * [Linux](https://github.com/dtylman/gitmoo-goog/releases/download/0.21/gitmoo-goog.bz2) 
 * [Windows](https://github.com/dtylman/gitmoo-goog/releases/download/0.21/gitmoo-goog.zip)
 * [MacOS](https://github.com/dtylman/gitmoo-goog/releases/download/0.21/gitmoo-goog.gz)
+* [ARM7] (gitmoo-goog-arm is precompiled already) 
 
 Unzip and run, there are no other dependencies.
 
@@ -54,6 +55,8 @@ This is probably not what you want, hit `crt-c` to stop it.
 
 ```
 Usage of ./gitmoo-goog:
+  -album string
+        use albumID to limit download to specific album (https://developers.google.com/photos/library/guides/list#listing-albums)
   -folder string
         backup folder
   -force
